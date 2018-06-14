@@ -7,38 +7,46 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <title>Nguyeh Le's Bootstrap Website</title>
   </head>
   <body>
-        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
-                <div class="container">
-                   <a href="#" class="navbar-brand">NL</a>
-                   <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">&#9776;</button>
-                   <div class="collapse navbar-collapse navHeaderCollapse">
-                      <ul class="nav navbar-nav navbar-right">
-                         <li><a href="#page0">Home</a></li>
-          <li><a href="#page1">About Me</a>
-          </li>
-          <li><a href="#page2">Projects</a>
-          </li>
-          <li><a href="https://github.com/nguyenwinle/" target="_blank">Github</a>
-          </li>
-          <li><a href="#page4">Contact</a>
-          </li>
-                      </ul>
-                   </div>
-                 </div>
-             </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class = "container">
+              <a class="navbar-brand" href="#">Nguyen Le</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
 
-    <div class - "container">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Github</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </nav>
+
+    <div class = "container">
         <div class = "row">
             <div class = "col-md-12">
                 About Me
             </div>
         <div class = "row">
             <div class = "col-md-8">
-                    <img class = "pic" src = "assets/images/profile_pic.png" alt="profile picture">
+                <img src="assets/images/profile_pic.jpeg" class="img-fluid rounded float-left" alt="profile-pic">
+
                     <p>Hi, I am Nguyen Le passionate in a career as a Full Stack Web Developer to further enhance and demonstrate my abilities to build frontend and backend technologies. 
                     What first introduced me to code is my drive to build my very own website from scratch. 
                     It started by learning through basic online tutorials and videos on HTML, CSS, and Javascript where I then decided I wanted to learn both frontend and backend coding languages. 
@@ -48,7 +56,7 @@
                     <p>My interests include fitness, art, adventures, technology, sports, food, music, and exploring and learning new things.</p>
             </div>
             <div class = "col-md-4">
-                aside menu
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </div>
         </div>
 
@@ -58,38 +66,10 @@
 
     <footer>
         <div class = "container">
-            <div class = "row">
-                <div class = "col-md-12">
-                    <p>Bootstrap Website made by Nguyen Le</p>
-                </div>
-            </div>
+            <p>Copyright @ Nguyen Le</p>
         </div>
     </footer>
         
-                <div class = "middle">
-                    <div class = "container">
-                        <div class = "content">
-                            <h1 class = "about">About Me</h1>
-                            <hr />
-                            <img class = "pic" src = "assets/images/profile_pic.png" alt="profile picture">
-                            <p>Hi, I am Nguyen Le passionate in a career as a Full Stack Web Developer to further enhance and demonstrate my abilities to build frontend and backend technologies. 
-                            What first introduced me to code is my drive to build my very own website from scratch. 
-                            It started by learning through basic online tutorials and videos on HTML, CSS, and Javascript where I then decided I wanted to learn both frontend and backend coding languages. 
-                            I have completed several projects on Udacity's Full Stack Web Developer course and currently attend a coding bootcamp at UC Davis Extension to build on my skills and gain more experience and knowledge as a Full Stack Web Developer.</p>
-                            <br />
-                            <br />
-                            <p>My interests include fitness, art, adventures, technology, sports, food, music, and exploring and learning new things.</p>
-                
-                        </div>
-                    </div>
-         
-               </div>
-        
-        
-        
-                <footer>
-                    <p>Copyright @ Nguyen Le</p>
-                </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
