@@ -7,85 +7,96 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <title>Nguyeh Le's Bootstrap Website</title>
   </head>
   <body>
-        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
-                <div class="container">
-                   <a href="#" class="navbar-brand">NL</a>
-                   <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">&#9776;</button>
-                   <div class="collapse navbar-collapse navHeaderCollapse">
-                      <ul class="nav navbar-nav navbar-right">
-                         <li><a href="#page0">Home</a></li>
-          <li><a href="#page1">About Me</a>
-          </li>
-          <li><a href="#page2">Projects</a>
-          </li>
-          <li><a href="https://github.com/nguyenwinle/" target="_blank">Github</a>
-          </li>
-          <li><a href="#page4">Contact</a>
-          </li>
-                      </ul>
-                   </div>
-                 </div>
-             </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class = "container">
+              <a class="navbar-brand" href="#"><h1 class = "logo">Nguyen Le</h1></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
 
-    <div class - "container">
-        <div class = "row">
-            <div class = "col-md-12">
-                About Me
-            </div>
-        <div class = "row">
-            <div class = "col-md-8">
-                    <img class = "pic" src = "assets/images/profile_pic.png" alt="profile picture">
-                    <p>Hi, I am Nguyen Le passionate in a career as a Full Stack Web Developer to further enhance and demonstrate my abilities to build frontend and backend technologies. 
-                    What first introduced me to code is my drive to build my very own website from scratch. 
-                    It started by learning through basic online tutorials and videos on HTML, CSS, and Javascript where I then decided I wanted to learn both frontend and backend coding languages. 
-                    I have completed several projects on Udacity's Full Stack Web Developer course and currently attend a coding bootcamp at UC Davis Extension to build on my skills and gain more experience and knowledge as a Full Stack Web Developer.</p>
-                    <br />
-                    <br />
-                    <p>My interests include fitness, art, adventures, technology, sports, food, music, and exploring and learning new things.</p>
-            </div>
-            <div class = "col-md-4">
-                aside menu
-            </div>
-        </div>
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Github</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </nav>
 
+        <div class = "container content">
+            <div class = "row">
+                <div class = "col-md-12">
+                    <h2 class = "sub-header">Portfolio</h2>
+                    <hr>
+                </div>
             </div>
-        </div>
-    </div>
 
-    <div class = "footer navbar-fixed-bottom">
-        
-        </div>
-        
-                <div class = "middle">
-                    <div class = "container">
-                        <div class = "content">
-                            <h1 class = "about">About Me</h1>
-                            <hr />
-                            <img class = "pic" src = "assets/images/profile_pic.png" alt="profile picture">
-                            <p>Hi, I am Nguyen Le passionate in a career as a Full Stack Web Developer to further enhance and demonstrate my abilities to build frontend and backend technologies. 
-                            What first introduced me to code is my drive to build my very own website from scratch. 
-                            It started by learning through basic online tutorials and videos on HTML, CSS, and Javascript where I then decided I wanted to learn both frontend and backend coding languages. 
-                            I have completed several projects on Udacity's Full Stack Web Developer course and currently attend a coding bootcamp at UC Davis Extension to build on my skills and gain more experience and knowledge as a Full Stack Web Developer.</p>
-                            <br />
-                            <br />
-                            <p>My interests include fitness, art, adventures, technology, sports, food, music, and exploring and learning new things.</p>
-                
+            <div class = "row">
+                <div class="col-md-4">
+                    <img class = "img-fluid" src="http://via.placeholder.com/600x600">
+                        <div class="col-md-12 text-block"> 
+                            <h4>Project</h4>
                         </div>
-                    </div>
-         
-               </div>
+                </div>
+                <div class="col-md-4">
+                    <img class = "img-fluid" src="http://via.placeholder.com/700x700">
+                        <div class="text-block"> 
+                            <h4>Project</h4>
+                        </div>
+                </div>
+                <div class="col-md-4">
+                    <img class = "img-fluid" src="http://via.placeholder.com/700x700">
+                        <div class="text-block"> 
+                             <h4>Project</h4>
+                        </div>
+                </div>
+            </div>
         
-    <div class = "footer navbar-fixed-bottom">
-            <p>Copyright @ Nguyen Le</p>
-    </div>
+            <div class = "row">
+                <div class="col-md-4">
+                    <img class = "img-fluid" src="http://via.placeholder.com/700x700">
+                        <div class="col-md-12 text-block"> 
+                            <h4>Project</h4>
+                        </div>
+                </div>
+                    
+                <div class="col-md-4">
+                    <img class = "img-fluid" src="http://via.placeholder.com/700x700">
+                        <div class="text-block"> 
+                            <h4>Project</h4>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+    <div class = "footer">
+        <div class = "container">
+          <div class = "row">
+            <div class = "col-md-12">
+                <p>Copyright @ Nguyen Le</p>
+            </div>
+          </div>
+        </div>
+      </div>
         
-                <footer>
-                    <p>Copyright @ Nguyen Le</p>
-                </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -94,26 +105,3 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
-
-<!-- Inside your Bootstrap-Portfolio repo, create index.html, portfolio.html and contact.html.
-Using Bootstrap, recreate your portfolio site with the following items:
-
-
-
-A navbar
-
-A responsive layout (remember the grid, rows and columns are your friends)
-
-
-eg. On xs and sm screens, each section should take up the entire grid. On md and larger screens, each section should take up 2/3 of the grid and the sidebar should take up 1/3 of the grid
-
-
-Responsive images
-
-
-BONUS
-   Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (Hint: Check out the Bootstrap documentation)
-
-
-Your Bootstrap solution should minimize use of media queries.
-Deploy your new Bootstrap-powered portfolio to GitHub Pages. -->
